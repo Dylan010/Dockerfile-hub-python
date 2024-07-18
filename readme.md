@@ -1,4 +1,3 @@
-```
 # Docker Flask Application
 
 Este repositorio contiene un ejemplo de aplicación web simple utilizando Python y Flask, que se puede ejecutar dentro de un contenedor Docker. Incluye los pasos para construir y probar la imagen Docker localmente, subirla a DockerHub y usar Docker Compose para gestionar los contenedores.
