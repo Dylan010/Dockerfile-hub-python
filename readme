@@ -1,0 +1,22 @@
+# Mi Aplicación Docker
+
+Este proyecto contiene una aplicación web simple containerizada usando Docker. La aplicación es un servidor web básico creado con Python y Flask.
+
+## Contenido del Repositorio
+
+- `Dockerfile`: Define cómo se construye la imagen Docker.
+- `docker-compose.yml`: Configura y ejecuta la aplicación en Docker.
+- `app.py`: El código fuente de la aplicación Flask.
+- `requirements.txt`: Lista las dependencias de Python.
+- `static/`: Directorio que contiene archivos estáticos como HTML.
+
+## Prerequisitos
+
+- Docker
+- Docker Compose
+
+## Cómo usar
+
+### Usando Docker Compose (recomendado)
+
+1. Clona este repositorio:
