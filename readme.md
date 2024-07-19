@@ -23,12 +23,16 @@ La estructura de archivos del proyecto es la siguiente:
 
 ```
 .
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
 ├── app.py
-└── static
+├── DESAFIO_12.pdf
+├── docker-compose.yaml
+├── Dockerfile
+├── readme.md
+├── requirements.txt
+├── static
+└── templates
     └── index.html
+
 ```
 
 ## Construcción de la Imagen Docker
@@ -36,8 +40,8 @@ La estructura de archivos del proyecto es la siguiente:
 Primero, clona este repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/nombre-del-repositorio.git
-cd nombre-del-repositorio
+git clone https://github.com/Dylan010/Dockerfile-hub-python
+cd Dockerfile-hub-python
 ```
 
 Luego, construye la imagen Docker:
