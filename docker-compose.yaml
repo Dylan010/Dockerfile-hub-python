@@ -2,10 +2,11 @@ version: '3'
 services:
   web:
     build: .
-    image: tuusuario/miapp:v1.0.0
+    image: dylan010101/miapp:v1.0.0
     ports:
-      - "5000:5000"
+      - "5001:5000"
     volumes:
       - ./static:/app/static
+      - ./templates:/app/templates
     environment:
       - FLASK_ENV=development
