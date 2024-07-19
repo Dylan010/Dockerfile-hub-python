@@ -1,7 +1,8 @@
 version: '3'
 services:
   web:
-    image: tuusuario/miapp:v1.0 #reemplazar por tu usuario
+    build: .
+    image: tuusuario/miapp:v1.0.0
     ports:
       - "5000:5000"
     volumes:
